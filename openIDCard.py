@@ -76,7 +76,7 @@ def parse_captcha(image_path):
     img_str = base64.b64encode(buffer.getvalue()).decode("utf-8")
     # Anti-captcha API structure
     data = {
-        "clientKey":"9bbe416a9782a11d9b5ea69292a8f11d",
+        "clientKey":"my-key",
         "task": {
             "type": "ImageToTextTask",
             "body": img_str,
@@ -96,7 +96,7 @@ def parse_captcha(image_path):
     ret = ""
     while True:
         data = {
-            "clientKey":"9bbe416a9782a11d9b5ea69292a8f11d",
+            "clientKey":"my-key",
             'taskId': task_id
         }
         r = requests.post("https://api.anti-captcha.com/getTaskResult", json=data)
