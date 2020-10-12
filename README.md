@@ -25,4 +25,4 @@
 4. 些許偵錯機制
 
 *備註 <sup>1</sup>：AntiCaptcha是付費服務*
-*備註 <sup>2</sup>：hdf5檔案太大不能上傳，請從Kaggle下載
+*備註 <sup>2</sup>：hdf5檔案太大不能上傳，請從Kaggle下載*
