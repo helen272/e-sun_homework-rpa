@@ -16,7 +16,7 @@
 
 ## 預測模型架構
 - 參考 [使用Keras基於TensorFlow和Python3.6識別高鐵驗證碼](https://github.com/gary9987/Keras-TaiwanHighSpeedRail-captcha) 最後輸出為5個Digit
-- 使用Kaggle GPU環境，可以參考我的[Kaggle Notebook](https://www.kaggle.com/felisatseng/captcha-predict)
+- 使用Kaggle GPU環境，可以參考我的[Kaggle Notebook](https://www.kaggle.com/felisatseng/captcha-predict)<sup>2</sup>
 
 ## RPA流程
 1. 使用 selenium Webdriver
@@ -25,3 +25,4 @@
 4. 些許偵錯機制
 
 *備註 <sup>1</sup>：AntiCaptcha是付費服務*
+*備註 <sup>2</sup>：hdf5檔案太大不能上傳，請從Kaggle下載
